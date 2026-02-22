@@ -117,7 +117,7 @@ export default function App() {
     setAiLoading(true);
     setAiError('');
     setAiResult(null);
-    const apiKey = "";
+    const apiKey = "AIzaSyAYYhco7GbwjFo8i3gE6nHFu0Ah0GPCXIE";
     
     const catalogData = PRODUCTS.map(p => ({id: p.id, name: p.name, category: p.category}));
     const promptText = `You are a world-class dermatologist representing Xenyra skincare. 
